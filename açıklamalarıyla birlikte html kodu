@@ -1,0 +1,114 @@
+.ana
+{
+    border: 1px solid black; /* Kutunun kenarlarına siyah 1px kalınlığında çerçeve ekler */
+    width: 800px; /* Genişlik 800 piksel */
+    height: 600px; /* Yükseklik 600 piksel */
+    margin-left: auto; /* Sol boşluk otomatik, yatayda ortalamak için kullanılır */
+    margin-right: auto; /* Sağ boşluk otomatik, ortalama tamamlanır */
+}
+
+.ust
+{
+    border: 1px solid blue; /* Kutunun kenarlarına mavi 1px kalınlığında çerçeve ekler */
+    background-color: blue; /* Arkaplan rengini mavi yapar */
+    width: 100px; /* Genişlik 100 piksel */
+    height: 100px; /* Yükseklik 100 piksel */
+    margin: 2px 2px 2px 2px; /* Tüm kenarlardan 2px boşluk bırakır */
+    float: left; /* Kutuyu sola hizalar ve yanına başka bir element yerleşmesine izin verir */
+    background-image: url(download.png); /* Arkaplan resmi ekler */
+    background-size: cover; /* Resmi kutunun boyutlarına sığacak şekilde ölçeklendirir */
+    background-repeat: no-repeat; /* Arkaplan resminin tekrarlanmasını engeller */
+}
+
+.sağust
+{
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 400px; /* Genişlik 400 piksel */
+    height: 100px; /* Yükseklik 100 piksel */
+    border-radius: 60%; /* Kenarları yuvarlaklaştırır (elips şekli oluşturur) */
+    margin: 2px 2px 2px 200px; /* Üst, sağ, alt ve sol kenarlardan boşluk bırakır */
+    background-image: url(asdasd.jpg); /* Arkaplan resmi */
+    background-size: cover; /* Resmi kutu boyutuna sığdırır */
+    background-repeat: no-repeat; /* Resmin tekrarlanmasını önler */
+}
+
+.kenar
+{
+    width: 794px; /* Genişlik 794 piksel */
+    height: 40px; /* Yükseklik 40 piksel */
+    clear: both; /* Önceki yüzen (float) elementlerin altına yerleşmesini sağlar */
+    border: 1px solid black; /* Siyah çerçeve */
+    margin: 0px 2px 2px 2px; /* Üstten 0, diğer kenarlardan 2px boşluk bırakır */
+    padding: 0px; /* İç boşluk yok */
+}
+
+.menum
+{
+    list-style: none; /* Liste işaretlerini kaldırır */
+    margin: 0px; /* Tüm kenarlardan boşluk kaldırır */
+}
+
+.menum li, a
+{
+    display: inline; /* Elemanları yatay olarak hizalar */
+    float: left; /* Elemanları sola hizalar */
+    width: 80px; /* Genişlik 80 piksel */
+    text-decoration: none; /* Linkin alt çizgisini kaldırır */
+    text-align: center; /* Metni ortalar */
+    color: black; /* Metin rengini siyah yapar */
+    line-height: 40px; /* Satır yüksekliği 40 piksel */
+    margin-right: 9%; /* Sağ tarafta boşluk bırakır */
+}
+
+.menum a:hover
+{
+    background-color: black; /* Üzerine gelindiğinde arkaplan rengini siyah yapar */
+    color: white; /* Üzerine gelindiğinde metin rengini beyaz yapar */
+}
+
+.enorta
+{
+    float: left; /* Sola hizalar */
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 487px; /* Genişlik 487 piksel */
+    height: 200px; /* Yükseklik 200 piksel */
+    margin: 0px 0px 2px 2px; /* Üst ve sağdan boşluk yok, alt ve soldan 2px boşluk */
+}
+
+.ortasol, .ortasağ
+{
+    float: left; /* Sola hizalar */
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 150px; /* Genişlik 150 piksel */
+    height: 200px; /* Yükseklik 200 piksel */
+    margin: 0px 0px 2px 2px; /* Üst ve sağdan boşluk yok, alt ve soldan 2px boşluk */
+}
+
+.altsol
+{
+    clear: both; /* Float yapılmış elementlerin altına yerleşmesini sağlar */
+    float: left; /* Sola hizalar */
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 150px; /* Genişlik 150 piksel */
+    height: 200px; /* Yükseklik 200 piksel */
+    margin: 0px 0px 2px 2px; /* Üst ve sağdan boşluk yok, alt ve soldan 2px boşluk */
+}
+
+.altsağ
+{
+    float: right; /* Sağa hizalar */
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 150px; /* Genişlik 150 piksel */
+    height: 200px; /* Yükseklik 200 piksel */
+    margin: 0px 2px 2px 2px; /* Üstten boşluk yok, diğer kenarlardan 2px boşluk */
+}
+
+.enalt
+{
+    clear: both; /* Float elementlerden sonra sıfırlama yapar */
+    float: right; /* Sağa hizalar */
+    border: 1px solid black; /* Siyah çerçeve */
+    width: 794px; /* Genişlik 794 piksel */
+    height: 40px; /* Yükseklik 40 piksel */
+    margin: 0px 2px 2px 0px; /* Üst ve soldan boşluk yok, sağ ve alttan 2px boşluk */
+}
